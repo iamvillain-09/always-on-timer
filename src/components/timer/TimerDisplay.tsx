@@ -21,8 +21,7 @@ const TimerDisplay = ({ time, isRunning, className }: TimerDisplayProps) => {
   return (
     <div 
       className={cn(
-        "font-mono text-timer-display transition-all duration-300",
-        isRunning && "animate-pulse-glow",
+        "font-mono text-timer-display",
         className
       )}
     >
